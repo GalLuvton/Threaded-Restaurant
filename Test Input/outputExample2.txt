@@ -1,0 +1,210 @@
+Dec 23, 2013 5:39:38 PM other.players.Management beginSimulation
+INFO: Initializing simulation process...
+Dec 23, 2013 5:39:38 PM other.players.Management beginSimulation
+INFO: System contains: [chefs=4][deliveryPeople=5][orders=5]
+Dec 23, 2013 5:39:38 PM other.players.Management beginSimulation
+INFO: Orders To Cook: 5
+Dec 23, 2013 5:39:38 PM other.players.Management beginSimulation
+INFO: Attempting to send order: [0][numberOfMeals=8]
+Dec 23, 2013 5:39:38 PM runnables.RunnableChef takeOrder
+INFO: Order ACCEPTED: 0
+Dec 23, 2013 5:39:38 PM other.players.Management beginSimulation
+INFO: Orders To Cook: 4
+Dec 23, 2013 5:39:38 PM other.players.Management beginSimulation
+INFO: Attempting to send order: [1][numberOfMeals=6]
+Dec 23, 2013 5:39:38 PM runnables.CallableCookWholeOrder call
+INFO: [CallableCookWholeOrder][orderId=0][numberOfMeals=8]
+Dec 23, 2013 5:39:38 PM runnables.RunnableChef takeOrder
+INFO: Order REFUSED: 1 [difficulty=40][availableEndurance=0]
+Dec 23, 2013 5:39:38 PM runnables.RunnableChef takeOrder
+INFO: Order ACCEPTED: 1
+Dec 23, 2013 5:39:38 PM runnables.CallableCookWholeOrder call
+INFO: [CallableCookWholeOrder] waiting for 8 meals to finish simulating...
+Dec 23, 2013 5:39:38 PM runnables.CallableCookWholeOrder call
+INFO: [CallableCookWholeOrder][orderId=1][numberOfMeals=6]
+Dec 23, 2013 5:39:38 PM other.players.Management beginSimulation
+INFO: Orders To Cook: 3
+Dec 23, 2013 5:39:38 PM other.players.Management beginSimulation
+INFO: Attempting to send order: [2][numberOfMeals=2]
+Dec 23, 2013 5:39:38 PM runnables.CallableCookWholeOrder call
+INFO: [CallableCookWholeOrder] waiting for 6 meals to finish simulating...
+Dec 23, 2013 5:39:38 PM runnables.RunnableChef takeOrder
+INFO: Order REFUSED: 2 [difficulty=10][availableEndurance=0]
+Dec 23, 2013 5:39:38 PM runnables.RunnableChef takeOrder
+INFO: Order REFUSED: 2 [difficulty=10][availableEndurance=5]
+Dec 23, 2013 5:39:38 PM runnables.RunnableChef takeOrder
+INFO: Order ACCEPTED: 2
+Dec 23, 2013 5:39:38 PM runnables.CallableCookWholeOrder call
+INFO: [CallableCookWholeOrder][orderId=2][numberOfMeals=2]
+Dec 23, 2013 5:39:38 PM other.players.Management beginSimulation
+INFO: Orders To Cook: 2
+Dec 23, 2013 5:39:38 PM runnables.CallableCookWholeOrder call
+INFO: [CallableCookWholeOrder] waiting for 2 meals to finish simulating...
+Dec 23, 2013 5:39:38 PM other.players.Management beginSimulation
+INFO: Attempting to send order: [3][numberOfMeals=6]
+Dec 23, 2013 5:39:38 PM runnables.RunnableChef takeOrder
+INFO: Order REFUSED: 3 [difficulty=10][availableEndurance=0]
+Dec 23, 2013 5:39:38 PM runnables.RunnableChef takeOrder
+INFO: Order REFUSED: 3 [difficulty=10][availableEndurance=5]
+Dec 23, 2013 5:39:38 PM runnables.RunnableChef takeOrder
+INFO: Order ACCEPTED: 3
+Dec 23, 2013 5:39:38 PM other.players.Management beginSimulation
+INFO: Orders To Cook: 1
+Dec 23, 2013 5:39:38 PM other.players.Management beginSimulation
+INFO: Attempting to send order: [4][numberOfMeals=10]
+Dec 23, 2013 5:39:38 PM runnables.RunnableChef takeOrder
+INFO: Order REFUSED: 4 [difficulty=50][availableEndurance=0]
+Dec 23, 2013 5:39:38 PM runnables.RunnableChef takeOrder
+INFO: Order REFUSED: 4 [difficulty=50][availableEndurance=5]
+Dec 23, 2013 5:39:38 PM runnables.RunnableChef takeOrder
+INFO: Order REFUSED: 4 [difficulty=50][availableEndurance=10]
+Dec 23, 2013 5:39:38 PM runnables.RunnableChef takeOrder
+INFO: Order REFUSED: 4 [difficulty=50][availableEndurance=25]
+Dec 23, 2013 5:39:38 PM other.players.Management beginSimulation
+INFO:  Nothing to do.. going to sleep. 
+Dec 23, 2013 5:39:52 PM runnables.CallableCookWholeOrder call
+INFO: [CallableCookWholeOrder] All meals have been cooked!
+Dec 23, 2013 5:39:52 PM runnables.RunnableChef sendOrderToDeliveryQueue
+INFO: Order COMPLETE: 0
+Dec 23, 2013 5:39:52 PM other.players.Management beginSimulation
+INFO:  WOKEN UP!
+Dec 23, 2013 5:39:52 PM other.players.Management beginSimulation
+INFO: Orders To Cook: 1
+Dec 23, 2013 5:39:52 PM runnables.RunnableDeliveryPerson run
+INFO: Order DELIVERED: [id=0][expectedTimeToDeliver=2][realTimeSpentToDeliver=2]
+Dec 23, 2013 5:39:52 PM other.players.Management beginSimulation
+INFO: Attempting to send order: [4][numberOfMeals=10]
+Dec 23, 2013 5:39:52 PM runnables.RunnableDeliveryPerson run
+INFO: DeliveryPerson has been shut down.
+Dec 23, 2013 5:39:52 PM runnables.CallableCookWholeOrder call
+INFO: [CallableCookWholeOrder][orderId=4][numberOfMeals=10]
+Dec 23, 2013 5:39:52 PM runnables.RunnableChef takeOrder
+INFO: Order ACCEPTED: 4
+Dec 23, 2013 5:39:52 PM other.players.Management beginSimulation
+INFO: Sending shutting down requests to the chefs... 
+Dec 23, 2013 5:39:52 PM runnables.CallableCookWholeOrder call
+INFO: [CallableCookWholeOrder] waiting for 10 meals to finish simulating...
+Dec 23, 2013 5:39:52 PM runnables.RunnableChef run
+INFO: Chef has been shut down.
+Dec 23, 2013 5:39:52 PM other.players.Management beginSimulation
+INFO: Waiting for chef shutdown completion...
+Dec 23, 2013 5:39:56 PM runnables.CallableCookWholeOrder call
+INFO: [CallableCookWholeOrder] All meals have been cooked!
+Dec 23, 2013 5:39:56 PM runnables.RunnableChef sendOrderToDeliveryQueue
+INFO: Order COMPLETE: 1
+Dec 23, 2013 5:39:56 PM runnables.RunnableChef run
+INFO: Chef has been shut down.
+Dec 23, 2013 5:39:56 PM runnables.RunnableDeliveryPerson run
+INFO: Order DELIVERED: [id=1][expectedTimeToDeliver=1][realTimeSpentToDeliver=1]
+Dec 23, 2013 5:39:56 PM runnables.RunnableDeliveryPerson run
+INFO: DeliveryPerson has been shut down.
+Dec 23, 2013 5:40:02 PM runnables.CallableCookWholeOrder call
+INFO: [CallableCookWholeOrder] All meals have been cooked!
+Dec 23, 2013 5:40:02 PM runnables.RunnableChef sendOrderToDeliveryQueue
+INFO: Order COMPLETE: 2
+Dec 23, 2013 5:40:02 PM runnables.CallableCookWholeOrder call
+INFO: [CallableCookWholeOrder][orderId=3][numberOfMeals=6]
+Dec 23, 2013 5:40:02 PM runnables.CallableCookWholeOrder call
+INFO: [CallableCookWholeOrder] waiting for 6 meals to finish simulating...
+Dec 23, 2013 5:40:02 PM runnables.RunnableDeliveryPerson run
+INFO: Order DELIVERED: [id=2][expectedTimeToDeliver=3][realTimeSpentToDeliver=3]
+Dec 23, 2013 5:40:02 PM runnables.RunnableDeliveryPerson run
+INFO: DeliveryPerson has been shut down.
+Dec 23, 2013 5:40:05 PM runnables.CallableCookWholeOrder call
+INFO: [CallableCookWholeOrder] All meals have been cooked!
+Dec 23, 2013 5:40:05 PM runnables.RunnableChef sendOrderToDeliveryQueue
+INFO: Order COMPLETE: 4
+Dec 23, 2013 5:40:05 PM runnables.RunnableChef run
+INFO: Chef has been shut down.
+Dec 23, 2013 5:40:05 PM runnables.RunnableDeliveryPerson run
+INFO: Order DELIVERED: [id=4][expectedTimeToDeliver=4][realTimeSpentToDeliver=4]
+Dec 23, 2013 5:40:05 PM runnables.RunnableDeliveryPerson run
+INFO: DeliveryPerson has been shut down.
+Dec 23, 2013 5:40:17 PM runnables.CallableCookWholeOrder call
+INFO: [CallableCookWholeOrder] All meals have been cooked!
+Dec 23, 2013 5:40:17 PM runnables.RunnableChef sendOrderToDeliveryQueue
+INFO: Order COMPLETE: 3
+Dec 23, 2013 5:40:17 PM runnables.RunnableChef run
+INFO: Chef has been shut down.
+Dec 23, 2013 5:40:17 PM other.players.Management beginSimulation
+INFO: Waiting for delivery people shutdown completion...
+Dec 23, 2013 5:40:17 PM runnables.RunnableDeliveryPerson run
+INFO: Order DELIVERED: [id=3][expectedTimeToDeliver=7][realTimeSpentToDeliver=7]
+Dec 23, 2013 5:40:17 PM runnables.RunnableDeliveryPerson run
+INFO: DeliveryPerson has been shut down.
+Dec 23, 2013 5:40:17 PM other.players.Management beginSimulation
+INFO: System has been shut down!
+Statistics: MoneyGained=1187.0
+Expected Rewards: [298.0][190.0][108.0][416.0][324.0]
+Received Rewards: [298.0][95.0][54.0][416.0][324.0]
+
+Order: [id=0][status=3][orderDifficulty=50][Address: x=1 y=2][expectedCookTime=15000][realCookTime=13503][expectedDeliveryTime=2][realDeliveryTime=2][orderCost=298][receivedReward=298.0]
+		[[quantity=2][cost=70][OrderOfDish: [Dish: [name=Ramen Soup][expectedCookTime=10000][difficultyRating=20][cost=35] RequiredIngredients=[Egg=1][Flour=250][Salt=7] RequiredKitchenTools=[Bowl=1][Cup=1][Oven=1][Spoon=1][Stove=1]]]
+		[[quantity=4][cost=120][OrderOfDish: [Dish: [name=Hasselback Potatoes][expectedCookTime=15000][difficultyRating=20][cost=30] RequiredIngredients=[Butter=45][Olive Oil=15][Potato=500][Salt=20] RequiredKitchenTools=[Knife=1][Oven=1][Plate=1][Spoon=1]]][[quantity=2][cost=108][OrderOfDish: [Dish: [name=The Ultimate Breakfast][expectedCookTime=15000][difficultyRating=10][cost=54] RequiredIngredients=[Black Pepper=5][Bread=15][Bread Crumbs=10][Cherry Tomato=100][Egg=1][Gouda Cheese=30][Olive Oil=25][Salt=5] RequiredKitchenTools=[Knife=1][Oven=1][Pan=1][Plate=1][Spoon=1][Stove=1]]]
+Order: [id=1][status=3][orderDifficulty=40][Address: x=10 y=20][expectedCookTime=15000][realCookTime=17999][expectedDeliveryTime=1][realDeliveryTime=1][orderCost=190][receivedReward=95.0]
+		[[quantity=4][cost=120][OrderOfDish: [Dish: [name=Hasselback Potatoes][expectedCookTime=15000][difficultyRating=20][cost=30] RequiredIngredients=[Butter=45][Olive Oil=15][Potato=500][Salt=20] RequiredKitchenTools=[Knife=1][Oven=1][Plate=1][Spoon=1]]][[quantity=2][cost=70][OrderOfDish: [Dish: [name=Ramen Soup][expectedCookTime=10000][difficultyRating=20][cost=35] RequiredIngredients=[Egg=1][Flour=250][Salt=7] RequiredKitchenTools=[Bowl=1][Cup=1][Oven=1][Spoon=1][Stove=1]]]
+Order: [id=2][status=3][orderDifficulty=10][Address: x=19 y=25][expectedCookTime=15000][realCookTime=23996][expectedDeliveryTime=3][realDeliveryTime=3][orderCost=108][receivedReward=54.0]
+		[[quantity=2][cost=108][OrderOfDish: [Dish: [name=The Ultimate Breakfast][expectedCookTime=15000][difficultyRating=10][cost=54] RequiredIngredients=[Black Pepper=5][Bread=15][Bread Crumbs=10][Cherry Tomato=100][Egg=1][Gouda Cheese=30][Olive Oil=25][Salt=5] RequiredKitchenTools=[Knife=1][Oven=1][Pan=1][Plate=1][Spoon=1][Stove=1]]]
+Order: [id=3][status=3][orderDifficulty=10][Address: x=50 y=50][expectedCookTime=15000][realCookTime=15003][expectedDeliveryTime=7][realDeliveryTime=7][orderCost=324][receivedReward=324.0]
+		[[quantity=6][cost=324][OrderOfDish: [Dish: [name=The Ultimate Breakfast][expectedCookTime=15000][difficultyRating=10][cost=54] RequiredIngredients=[Black Pepper=5][Bread=15][Bread Crumbs=10][Cherry Tomato=100][Egg=1][Gouda Cheese=30][Olive Oil=25][Salt=5] RequiredKitchenTools=[Knife=1][Oven=1][Pan=1][Plate=1][Spoon=1][Stove=1]]]
+Order: [id=4][status=3][orderDifficulty=50][Address: x=20 y=33][expectedCookTime=15000][realCookTime=13503][expectedDeliveryTime=4][realDeliveryTime=4][orderCost=416][receivedReward=416.0]
+		[[quantity=4][cost=140][OrderOfDish: [Dish: [name=Ramen Soup][expectedCookTime=10000][difficultyRating=20][cost=35] RequiredIngredients=[Egg=1][Flour=250][Salt=7] RequiredKitchenTools=[Bowl=1][Cup=1][Oven=1][Spoon=1][Stove=1]]]
+		[[quantity=4][cost=216][OrderOfDish: [Dish: [name=The Ultimate Breakfast][expectedCookTime=15000][difficultyRating=10][cost=54] RequiredIngredients=[Black Pepper=5][Bread=15][Bread Crumbs=10][Cherry Tomato=100][Egg=1][Gouda Cheese=30][Olive Oil=25][Salt=5] RequiredKitchenTools=[Knife=1][Oven=1][Pan=1][Plate=1][Spoon=1][Stove=1]]][[quantity=2][cost=60][OrderOfDish: [Dish: [name=Hasselback Potatoes][expectedCookTime=15000][difficultyRating=20][cost=30] RequiredIngredients=[Butter=45][Olive Oil=15][Potato=500][Salt=20] RequiredKitchenTools=[Knife=1][Oven=1][Plate=1][Spoon=1]]]
+
+Ingredient: [name=Potato][quantitiy=5000][consumed=5000][left=0]
+Ingredient: [name=Butter][quantitiy=2000][consumed=450][left=1550]
+Ingredient: [name=Olive Oil][quantitiy=1500][consumed=500][left=1000]
+Ingredient: [name=Salt][quantitiy=1500][consumed=326][left=1174]
+Ingredient: [name=Cherry Tomato][quantitiy=1500][consumed=1400][left=100]
+Ingredient: [name=Bread][quantitiy=2500][consumed=210][left=2290]
+Ingredient: [name=Bread Crumbs][quantitiy=1500][consumed=140][left=1360]
+Ingredient: [name=Egg][quantitiy=150][consumed=22][left=128]
+Ingredient: [name=Flour][quantitiy=2500][consumed=2000][left=500]
+Ingredient: [name=Gouda Cheese][quantitiy=2500][consumed=420][left=2080]
+Ingredient: [name=Black Pepper][quantitiy=2500][consumed=70][left=2430]
+
+Chef: [name=Gordon Ramsay][enduranceRating=50][efficiencyRating=0.9]
+	[Order: [id=0][status=3][orderDifficulty=50][Address: x=1 y=2][expectedCookTime=15000][realCookTime=13503][expectedDeliveryTime=2][realDeliveryTime=2][orderCost=298][receivedReward=298.0]
+		[[quantity=2][cost=70][OrderOfDish: [Dish: [name=Ramen Soup][expectedCookTime=10000][difficultyRating=20][cost=35] RequiredIngredients=[Egg=1][Flour=250][Salt=7] RequiredKitchenTools=[Bowl=1][Cup=1][Oven=1][Spoon=1][Stove=1]]]
+		[[quantity=4][cost=120][OrderOfDish: [Dish: [name=Hasselback Potatoes][expectedCookTime=15000][difficultyRating=20][cost=30] RequiredIngredients=[Butter=45][Olive Oil=15][Potato=500][Salt=20] RequiredKitchenTools=[Knife=1][Oven=1][Plate=1][Spoon=1]]][[quantity=2][cost=108][OrderOfDish: [Dish: [name=The Ultimate Breakfast][expectedCookTime=15000][difficultyRating=10][cost=54] RequiredIngredients=[Black Pepper=5][Bread=15][Bread Crumbs=10][Cherry Tomato=100][Egg=1][Gouda Cheese=30][Olive Oil=25][Salt=5] RequiredKitchenTools=[Knife=1][Oven=1][Pan=1][Plate=1][Spoon=1][Stove=1]]]]
+	[Order: [id=4][status=3][orderDifficulty=50][Address: x=20 y=33][expectedCookTime=15000][realCookTime=13503][expectedDeliveryTime=4][realDeliveryTime=4][orderCost=416][receivedReward=416.0]
+		[[quantity=4][cost=140][OrderOfDish: [Dish: [name=Ramen Soup][expectedCookTime=10000][difficultyRating=20][cost=35] RequiredIngredients=[Egg=1][Flour=250][Salt=7] RequiredKitchenTools=[Bowl=1][Cup=1][Oven=1][Spoon=1][Stove=1]]]
+		[[quantity=4][cost=216][OrderOfDish: [Dish: [name=The Ultimate Breakfast][expectedCookTime=15000][difficultyRating=10][cost=54] RequiredIngredients=[Black Pepper=5][Bread=15][Bread Crumbs=10][Cherry Tomato=100][Egg=1][Gouda Cheese=30][Olive Oil=25][Salt=5] RequiredKitchenTools=[Knife=1][Oven=1][Pan=1][Plate=1][Spoon=1][Stove=1]]][[quantity=2][cost=60][OrderOfDish: [Dish: [name=Hasselback Potatoes][expectedCookTime=15000][difficultyRating=20][cost=30] RequiredIngredients=[Butter=45][Olive Oil=15][Potato=500][Salt=20] RequiredKitchenTools=[Knife=1][Oven=1][Plate=1][Spoon=1]]]]
+	
+Chef: [name=Rachael Ray][enduranceRating=45][efficiencyRating=0.9]
+	[Order: [id=1][status=3][orderDifficulty=40][Address: x=10 y=20][expectedCookTime=15000][realCookTime=17999][expectedDeliveryTime=1][realDeliveryTime=1][orderCost=190][receivedReward=95.0]
+		[[quantity=4][cost=120][OrderOfDish: [Dish: [name=Hasselback Potatoes][expectedCookTime=15000][difficultyRating=20][cost=30] RequiredIngredients=[Butter=45][Olive Oil=15][Potato=500][Salt=20] RequiredKitchenTools=[Knife=1][Oven=1][Plate=1][Spoon=1]]][[quantity=2][cost=70][OrderOfDish: [Dish: [name=Ramen Soup][expectedCookTime=10000][difficultyRating=20][cost=35] RequiredIngredients=[Egg=1][Flour=250][Salt=7] RequiredKitchenTools=[Bowl=1][Cup=1][Oven=1][Spoon=1][Stove=1]]]]
+	
+Chef: [name=Wolfgang Puck][enduranceRating=30][efficiencyRating=1.0]
+	[Order: [id=2][status=3][orderDifficulty=10][Address: x=19 y=25][expectedCookTime=15000][realCookTime=23996][expectedDeliveryTime=3][realDeliveryTime=3][orderCost=108][receivedReward=54.0]
+		[[quantity=2][cost=108][OrderOfDish: [Dish: [name=The Ultimate Breakfast][expectedCookTime=15000][difficultyRating=10][cost=54] RequiredIngredients=[Black Pepper=5][Bread=15][Bread Crumbs=10][Cherry Tomato=100][Egg=1][Gouda Cheese=30][Olive Oil=25][Salt=5] RequiredKitchenTools=[Knife=1][Oven=1][Pan=1][Plate=1][Spoon=1][Stove=1]]]]
+	[Order: [id=3][status=3][orderDifficulty=10][Address: x=50 y=50][expectedCookTime=15000][realCookTime=15003][expectedDeliveryTime=7][realDeliveryTime=7][orderCost=324][receivedReward=324.0]
+		[[quantity=6][cost=324][OrderOfDish: [Dish: [name=The Ultimate Breakfast][expectedCookTime=15000][difficultyRating=10][cost=54] RequiredIngredients=[Black Pepper=5][Bread=15][Bread Crumbs=10][Cherry Tomato=100][Egg=1][Gouda Cheese=30][Olive Oil=25][Salt=5] RequiredKitchenTools=[Knife=1][Oven=1][Pan=1][Plate=1][Spoon=1][Stove=1]]]]
+	
+Chef: [name=Paula Deen][enduranceRating=25][efficiencyRating=1.1]
+	
+
+DeliveryPerson: [deliveryPersonName=Garry Simpson][speed=5]
+	[Order: [id=0][status=3][orderDifficulty=50][Address: x=1 y=2][expectedCookTime=15000][realCookTime=13503][expectedDeliveryTime=2][realDeliveryTime=2][orderCost=298][receivedReward=298.0]
+		[[quantity=2][cost=70][OrderOfDish: [Dish: [name=Ramen Soup][expectedCookTime=10000][difficultyRating=20][cost=35] RequiredIngredients=[Egg=1][Flour=250][Salt=7] RequiredKitchenTools=[Bowl=1][Cup=1][Oven=1][Spoon=1][Stove=1]]]
+		[[quantity=4][cost=120][OrderOfDish: [Dish: [name=Hasselback Potatoes][expectedCookTime=15000][difficultyRating=20][cost=30] RequiredIngredients=[Butter=45][Olive Oil=15][Potato=500][Salt=20] RequiredKitchenTools=[Knife=1][Oven=1][Plate=1][Spoon=1]]][[quantity=2][cost=108][OrderOfDish: [Dish: [name=The Ultimate Breakfast][expectedCookTime=15000][difficultyRating=10][cost=54] RequiredIngredients=[Black Pepper=5][Bread=15][Bread Crumbs=10][Cherry Tomato=100][Egg=1][Gouda Cheese=30][Olive Oil=25][Salt=5] RequiredKitchenTools=[Knife=1][Oven=1][Pan=1][Plate=1][Spoon=1][Stove=1]]]]
+	
+DeliveryPerson: [deliveryPersonName=Ken Allen][speed=7]
+	[Order: [id=1][status=3][orderDifficulty=40][Address: x=10 y=20][expectedCookTime=15000][realCookTime=17999][expectedDeliveryTime=1][realDeliveryTime=1][orderCost=190][receivedReward=95.0]
+		[[quantity=4][cost=120][OrderOfDish: [Dish: [name=Hasselback Potatoes][expectedCookTime=15000][difficultyRating=20][cost=30] RequiredIngredients=[Butter=45][Olive Oil=15][Potato=500][Salt=20] RequiredKitchenTools=[Knife=1][Oven=1][Plate=1][Spoon=1]]][[quantity=2][cost=70][OrderOfDish: [Dish: [name=Ramen Soup][expectedCookTime=10000][difficultyRating=20][cost=35] RequiredIngredients=[Egg=1][Flour=250][Salt=7] RequiredKitchenTools=[Bowl=1][Cup=1][Oven=1][Spoon=1][Stove=1]]]]
+	
+DeliveryPerson: [deliveryPersonName=Patrick Donahoe][speed=6]
+	[Order: [id=2][status=3][orderDifficulty=10][Address: x=19 y=25][expectedCookTime=15000][realCookTime=23996][expectedDeliveryTime=3][realDeliveryTime=3][orderCost=108][receivedReward=54.0]
+		[[quantity=2][cost=108][OrderOfDish: [Dish: [name=The Ultimate Breakfast][expectedCookTime=15000][difficultyRating=10][cost=54] RequiredIngredients=[Black Pepper=5][Bread=15][Bread Crumbs=10][Cherry Tomato=100][Egg=1][Gouda Cheese=30][Olive Oil=25][Salt=5] RequiredKitchenTools=[Knife=1][Oven=1][Pan=1][Plate=1][Spoon=1][Stove=1]]]]
+	
+DeliveryPerson: [deliveryPersonName=Scott Davis][speed=6]
+	[Order: [id=4][status=3][orderDifficulty=50][Address: x=20 y=33][expectedCookTime=15000][realCookTime=13503][expectedDeliveryTime=4][realDeliveryTime=4][orderCost=416][receivedReward=416.0]
+		[[quantity=4][cost=140][OrderOfDish: [Dish: [name=Ramen Soup][expectedCookTime=10000][difficultyRating=20][cost=35] RequiredIngredients=[Egg=1][Flour=250][Salt=7] RequiredKitchenTools=[Bowl=1][Cup=1][Oven=1][Spoon=1][Stove=1]]]
+		[[quantity=4][cost=216][OrderOfDish: [Dish: [name=The Ultimate Breakfast][expectedCookTime=15000][difficultyRating=10][cost=54] RequiredIngredients=[Black Pepper=5][Bread=15][Bread Crumbs=10][Cherry Tomato=100][Egg=1][Gouda Cheese=30][Olive Oil=25][Salt=5] RequiredKitchenTools=[Knife=1][Oven=1][Pan=1][Plate=1][Spoon=1][Stove=1]]][[quantity=2][cost=60][OrderOfDish: [Dish: [name=Hasselback Potatoes][expectedCookTime=15000][difficultyRating=20][cost=30] RequiredIngredients=[Butter=45][Olive Oil=15][Potato=500][Salt=20] RequiredKitchenTools=[Knife=1][Oven=1][Plate=1][Spoon=1]]]]
+	
+DeliveryPerson: [deliveryPersonName=Frederick Smith][speed=8]
+	[Order: [id=3][status=3][orderDifficulty=10][Address: x=50 y=50][expectedCookTime=15000][realCookTime=15003][expectedDeliveryTime=7][realDeliveryTime=7][orderCost=324][receivedReward=324.0]
+		[[quantity=6][cost=324][OrderOfDish: [Dish: [name=The Ultimate Breakfast][expectedCookTime=15000][difficultyRating=10][cost=54] RequiredIngredients=[Black Pepper=5][Bread=15][Bread Crumbs=10][Cherry Tomato=100][Egg=1][Gouda Cheese=30][Olive Oil=25][Salt=5] RequiredKitchenTools=[Knife=1][Oven=1][Pan=1][Plate=1][Spoon=1][Stove=1]]]]
+	
+
+
